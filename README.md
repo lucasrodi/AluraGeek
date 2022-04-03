@@ -9,7 +9,7 @@ git clone https://github.com/lucasrodi/AluraGeek.git -> para clonar o projeto.<b
 npm install -> para instalar as dependências do projeto.<br/>
 json-server --watch db.json -> inicializar json server.<br/>
 cd web-app -> para ir até a pasta do site.<br/>
-npm start -> inicialiar site.<br/>
+npm start -> inicializar site.<br/>
 Acessar http://localhost:3001 no navegador.<br/>
 
 
