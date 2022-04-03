@@ -17,7 +17,7 @@ export const ListaProdutos = ({ url, quantidade }) => {
 
         {produtos.slice(0, quantidade).map((produto) => {
             return (
-                <Link key={produto.id} className="produto" to="/produtodetalhe">
+                <Link key={produto.id} className="produto" to={`/produtodetalhe${url}/${produto.id}`}>
                     <img className="produto__img" src={produto.img} alt="imagem do produto" />
                     <p className="produto__titulo">{produto.titulo}</p>
                     <p className="produto__preco">R${produto.preco}</p>
